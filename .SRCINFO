@@ -1,0 +1,22 @@
+pkgbase = mkimg
+	pkgdesc = Generate image files in various formats.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/mkimg
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = e2fsprogs
+	depends = libcrash-bash
+	optdepends = blk-utils: swap volume support
+	optdepends = erofs-utils: 'enhanced read only file system' support
+	optdepends = luks-tools: LUKS volumes support
+	optdepends = mdadm: RAID images support
+	optdepends = mtools: FAT file system support
+	optdepends = squashfs-tools-ng: Squash file system support
+	source = mkimg-0a66419696f3191ea9b1523c46d2d2072aa59060.zip::https://github.com/themartiancompany/mkimg/archive/0a66419696f3191ea9b1523c46d2d2072aa59060.zip
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	sha256sums = 3b035f4755a007867c0bc0d3a0bfd9628a2b6c0feb93fa30a791ae804f636a46
+
+pkgname = mkimg
